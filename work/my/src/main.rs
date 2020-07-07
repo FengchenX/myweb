@@ -1,5 +1,12 @@
+use crate::mod1::mod1_1::hello;
+
+mod prelude;
+
+mod mod1;
+
 
 fn main(){
+    hello();
     println!("{}",strStr(String::from("hello world"), String::from("we")));
 }
 
