@@ -1,3 +1,5 @@
+
 pub use crate::{
-    mod1::mod1_1::*,
+    alg::*,
+    alg::strStr::strStr,
 };
