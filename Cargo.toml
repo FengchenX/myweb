@@ -25,6 +25,10 @@ bytes = "0.5"
 
 [workspace]
 members = [
-    "work/my",
+#    "src/bin/my",
     "work/basics",
 ]
+
+[[bin]]
+name="bin1"
+path = "bin/my/main.rs"
